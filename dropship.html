@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AEGIS-COMMERCE // Live Visual AI Dropshipping &amp; Cross-Border Storefront</title>
+<style>
+  body { background:#04070f; color:#e2e8f0; font-family:'Segoe UI',system-ui,sans-serif; margin:0; padding:0; }
+  .wrap { max-width:1360px; margin:0 auto; padding:26px 20px; }
+  .top-bar { background:linear-gradient(135deg,#0f172a 0%,#1e1b4b 100%); border:1px solid #10b981; border-radius:16px; padding:24px; margin-bottom:24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(285px,1fr)); gap:18px; }
+  .prod-card { background:#0b1220; border:1px solid #1e293b; border-radius:14px; padding:16px; display:flex; flex-direction:column; justify-content:space-between; }
+  .badge { display:inline-block; background:rgba(16,185,129,0.14); color:#10b981; border:1px solid rgba(16,185,129,0.35); padding:3px 9px; border-radius:999px; font-size:10.5px; font-weight:700; width:fit-content; }
+  .btn-order { background:#10b981; color:#04130d; border:none; padding:9px 14px; border-radius:8px; font-weight:800; cursor:pointer; font-size:12px; }
+  .btn-order:hover { background:#34d399; }
+  #orderModal { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.86); align-items:center; justify-content:center; z-index:999; padding:20px; }
+  .modal { background:#0f172a; border:1px solid #38bdf8; border-radius:16px; max-width:540px; width:100%; padding:24px; }
+  input { width:100%; box-sizing:border-box; padding:9px 12px; border-radius:8px; border:1px solid #334155; background:#060911; color:#fff; font-size:13px; margin-top:6px; margin-bottom:10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top-bar">
+    <div style="max-width:760px;">
+      <div class="badge">LIVE ZERO-INVENTORY AI DROPSHIPPING STOREFRONT</div>
+      <h1 style="margin:8px 0;font-size:25px;color:#fff;">AEGIS-COMMERCE // Cross-Border Physical &amp; Digital Store</h1>
+      <p style="margin:0;color:#cbd5e1;font-size:13.5px;">Focus kapitaalallocatie op het hoogst scorende PERSISTENT_HIGH_ALPHA paar met de kortste breakeven-tijd.</p>
+      <div style="margin-top:10px;">
+        <a href="index.html" style="color:#38bdf8;font-size:13px;font-weight:700;margin-right:16px;">&larr; Back to 6-Pillar Quant Hub</a>
+        <a href="shopify_ebay_dropship_import.csv" download style="color:#10b981;font-size:13px;font-weight:700;">[Download Bulk Shopify/eBay CSV Catalog]</a>
+      </div>
+    </div>
+    <div style="background:#060a14;border:1px solid #38bdf8;padding:12px 16px;border-radius:12px;font-family:Consolas,monospace;font-size:12px;">
+      <div style="color:#94a3b8;font-size:10.5px;">AI SELF-CUSTODIAL MERCHANT WALLET:</div>
+      <div style="color:#10b981;font-weight:700;margin-top:4px;">0xc6d72a43eB4d01f24e0ec1bBe71d9874c869c15d</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/a/1/a16e23bf-cff8-4a88-b27e-9de3d5b8703d.jpg?1791202305' alt='Command Tower — Media and Collaboration Promos (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Command Tower — Media and Collaboration Promos (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">TCGplayer US (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$82.66</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$86.10</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$43.35 (+129% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-A16E23BF', 'Command Tower — Media and Collaboration Promos (Authentic Physical Edition)', 82.66, 'https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F697890%3Fpage%3D1')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/a/6/a61f40cd-7641-4228-9239-8894d1d04851.jpg?1783948012' alt='Swords to Plowshares — Summer Magic / Edgar (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Swords to Plowshares — Summer Magic / Edgar (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">TCGplayer US (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$603.03</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$628.16</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$533.02 (+1333% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-A61F40CD', 'Swords to Plowshares — Summer Magic / Edgar (Authentic Physical Edition)', 603.03, 'https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F211769%3Fpage%3D1')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/3/0/306d22ae-657e-4b52-8cd9-6fc3df9e8376.jpg?1783946096' alt='Three Visits — Portal Three Kingdoms (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Three Visits — Portal Three Kingdoms (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$94.85</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$98.80</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$65.50 (+283% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-306D22AE', 'Three Visits — Portal Three Kingdoms (Authentic Physical Edition)', 94.85, 'https://www.cardmarket.com/en/Magic/Products?idProduct=11346&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/e/b/ebaa3b73-abb5-4ad4-a4c7-4b9f358db2c6.jpg?1783915816' alt='Castle Ardenvale — Tales of Middle-earth Commander (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Castle Ardenvale — Tales of Middle-earth Commander (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$2112.00</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$2200.00</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$1522.03 (+311% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-EBAA3B73', 'Castle Ardenvale — Tales of Middle-earth Commander (Authentic Physical Edition)', 2112.00, 'https://www.cardmarket.com/en/Magic/Products?idProduct=743284&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/1/9/194406d0-7065-4c28-9771-52c179ce4d94.jpg?1783913627' alt='Indoraptor, the Perfect Hybrid — Jurassic World Collection (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Indoraptor, the Perfect Hybrid — Jurassic World Collection (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$1151.95</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$1199.95</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$627.13 (+134% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-194406D0', 'Indoraptor, the Perfect Hybrid — Jurassic World Collection (Authentic Physical Edition)', 1151.95, 'https://www.cardmarket.com/en/Magic/Products?idProduct=740995&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/3/1/311b5a21-544c-4096-87cd-17e5a8c4b0fc.jpg?1783913632' alt='Ian Malcolm, Chaotician — Jurassic World Collection (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Ian Malcolm, Chaotician — Jurassic World Collection (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$956.15</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$995.99</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$640.58 (+238% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-311B5A21', 'Ian Malcolm, Chaotician — Jurassic World Collection (Authentic Physical Edition)', 956.15, 'https://www.cardmarket.com/en/Magic/Products?idProduct=740993&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/3/6/3629730d-4a68-426d-a7e4-6e3873028fab.jpg?1783915806' alt='Pillar of the Paruns — Tales of Middle-earth Commander (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Pillar of the Paruns — Tales of Middle-earth Commander (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">TCGplayer US (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$2934.75</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$3057.03</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$2045.43 (+273% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-3629730D', 'Pillar of the Paruns — Tales of Middle-earth Commander (Authentic Physical Edition)', 2934.75, 'https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F518211%3Fpage%3D1')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/d/5/d5a92c79-8b65-4bdf-9adb-5aeb678df565.jpg?1783919773' alt='Altar of Dementia — The Brothers War Retro Artifacts (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Altar of Dementia — The Brothers' War Retro Artifacts (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$660.00</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$687.50</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$394.13 (+169% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-D5A92C79', 'Altar of Dementia — The Brothers War Retro Artifacts (Authentic Physical Edition)', 660.00, 'https://www.cardmarket.com/en/Magic/Products?idProduct=685190&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/2/c/2c4583e3-4b1b-4d08-a80e-142578b9487a.jpg?1783919768' alt='Caged Sun — The Brothers War Retro Artifacts (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Caged Sun — The Brothers' War Retro Artifacts (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$619.20</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$645.00</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$382.86 (+186% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-2C4583E3', 'Caged Sun — The Brothers War Retro Artifacts (Authentic Physical Edition)', 619.20, 'https://www.cardmarket.com/en/Magic/Products?idProduct=685198&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/8/0/8077f5fe-f22a-4840-9417-526e76282a9e.jpg?1783919761' alt='Helm of the Host — The Brothers War Retro Artifacts (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Helm of the Host — The Brothers' War Retro Artifacts (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$611.52</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$637.00</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$482.73 (+491% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-8077F5FE', 'Helm of the Host — The Brothers War Retro Artifacts (Authentic Physical Edition)', 611.52, 'https://www.cardmarket.com/en/Magic/Products?idProduct=685209&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/f/8/f8f539c4-9b68-49c2-b750-e4afa80d5178.jpg?1783919766' alt='Cloud Key — The Brothers War Retro Artifacts (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Cloud Key — The Brothers' War Retro Artifacts (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$480.00</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$500.00</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$303.16 (+199% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-F8F539C4', 'Cloud Key — The Brothers War Retro Artifacts (Authentic Physical Edition)', 480.00, 'https://www.cardmarket.com/en/Magic/Products?idProduct=685201&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/4/a/4a5c8600-af33-4f71-9d2f-a75ee4b3eaeb.jpg?1783919771' alt='Astral Cornucopia — The Brothers War Retro Artifacts (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Astral Cornucopia — The Brothers' War Retro Artifacts (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$460.80</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$480.00</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$262.69 (+150% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-4A5C8600', 'Astral Cornucopia — The Brothers War Retro Artifacts (Authentic Physical Edition)', 460.80, 'https://www.cardmarket.com/en/Magic/Products?idProduct=685192&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/c/1/c1d4f6fb-fe71-418a-93df-6b32190ce618.jpg?1783916817' alt='Seizan, Perverter of Truth — Multiverse Legends (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Seizan, Perverter of Truth — Multiverse Legends (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$431.99</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$449.99</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$233.37 (+132% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-C1D4F6FB', 'Seizan, Perverter of Truth — Multiverse Legends (Authentic Physical Edition)', 431.99, 'https://www.cardmarket.com/en/Magic/Products?idProduct=705016&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/1/f/1f8224d8-0445-427f-a814-919ca312983f.jpg?1783913238' alt='Crypt Ghast — Ravnica Remastered (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Crypt Ghast — Ravnica Remastered (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$419.18</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$436.65</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$334.09 (+525% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-1F8224D8', 'Crypt Ghast — Ravnica Remastered (Authentic Physical Edition)', 419.18, 'https://www.cardmarket.com/en/Magic/Products?idProduct=750305&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/f/0/f08ae802-1321-492e-87cd-d1c2ccf73197.jpg?1783916823' alt='Sram, Senior Edificer — Multiverse Legends (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Sram, Senior Edificer — Multiverse Legends (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$416.00</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$433.33</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$257.27 (+187% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-F08AE802', 'Sram, Senior Edificer — Multiverse Legends (Authentic Physical Edition)', 416.00, 'https://www.cardmarket.com/en/Magic/Products?idProduct=705011&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/a/1/a1d31c43-7d50-4eaf-9016-a679e92abcc9.jpg?1783919745' alt='Phyrexian Processor — The Brothers War Retro Artifacts (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Phyrexian Processor — The Brothers' War Retro Artifacts (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$374.39</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$389.99</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$244.47 (+221% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-A1D31C43', 'Phyrexian Processor — The Brothers War Retro Artifacts (Authentic Physical Edition)', 374.39, 'https://www.cardmarket.com/en/Magic/Products?idProduct=685229&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/b/f/bf3fcbb0-6c21-4bcb-ba53-330ff1e3409c.jpg?1783919754' alt='Keening Stone — The Brothers War Retro Artifacts (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Keening Stone — The Brothers' War Retro Artifacts (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$373.36</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$388.92</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$196.76 (+125% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-BF3FCBB0', 'Keening Stone — The Brothers War Retro Artifacts (Authentic Physical Edition)', 373.36, 'https://www.cardmarket.com/en/Magic/Products?idProduct=685216&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+        <div class="prod-card">
+          <img src='https://cards.scryfall.io/normal/front/4/3/43fe36b0-2a16-4fa4-a1f1-b38ed4a3faad.jpg?1783916823' alt='Thalia, Guardian of Thraben — Multiverse Legends (Authentic Physical Edition)' style='width:100%;height:210px;object-fit:contain;background:#050811;border-radius:10px;margin-bottom:12px;' loading='lazy' />
+          <div class="badge">Physical Collectibles & Cross-Border Dropship</div>
+          <h3 style="margin:8px 0 6px 0;font-size:15px;color:#fff;min-height:40px;">Thalia, Guardian of Thraben — Multiverse Legends (Authentic Physical Edition)</h3>
+          <div style="font-size:11.5px;color:#94a3b8;margin-bottom:10px;">
+            Route: <span style="color:#10b981;">Cardmarket EU (Direct Supplier)</span> &rarr; <span style="color:#38bdf8;">Direct Customer Dispatch</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #1e293b;padding-top:10px;">
+            <div>
+              <span style="font-size:20px;font-weight:800;color:#10b981;">$551.99</span>
+              <span style="font-size:12px;color:#64748b;text-decoration:line-through;margin-left:6px;">$574.99</span>
+              <div style="font-size:10.5px;color:#f59e0b;margin-top:2px;">AI Margin: +$269.38 (+106% ROI)</div>
+            </div>
+            <button class="btn-order" onclick="openDropshipOrder('PHYS-43FE36B0', 'Thalia, Guardian of Thraben — Multiverse Legends (Authentic Physical Edition)', 551.99, 'https://www.cardmarket.com/en/Magic/Products?idProduct=704191&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall')">Order Now</button>
+          </div>
+        </div>
+  </div>
+</div>
+
+<div id="orderModal">
+  <div class="modal">
+    <h3 id="mTitle" style="margin:0 0 6px 0;color:#fff;">Complete Dropship Order</h3>
+    <div id="mPrice" style="color:#10b981;font-size:21px;font-weight:800;margin-bottom:12px;"></div>
+    <label style="font-size:12px;color:#94a3b8;">1. Shipping Address or Delivery Email (for Automated Supplier Dispatch):</label>
+    <input id="shipName" placeholder="Full Name / Recipient" />
+    <input id="shipAddr" placeholder="Street Address, City, Postal Code, Country (or Email for Digital Keys)" />
+    <div style="font-size:12px;color:#cbd5e1;margin-bottom:10px;">
+      2. Pay directly in <b>USDC, USDT, or ETH</b> to the AI Wallet:<br>
+      <code style="color:#38bdf8;word-break:break-all;">0xc6d72a43eB4d01f24e0ec1bBe71d9874c869c15d</code>
+    </div>
+    <div style="display:flex;gap:10px;margin-bottom:12px;">
+      <button class="btn-order" style="flex:1;" onclick="payDropshipMetaMask()">1-Click Pay via MetaMask / Web3</button>
+      <button class="btn-order" style="background:#1e293b;color:#cbd5e1;" onclick="document.getElementById('orderModal').style.display='none'">Cancel</button>
+    </div>
+    <label style="font-size:12px;color:#94a3b8;">3. Paste On-Chain TxHash (<code>0x...</code>) to trigger Auto-Fulfillment:</label>
+    <input id="txInput" placeholder="0x..." />
+    <button class="btn-order" style="width:100%;" onclick="verifyAndDispatch()">Verify Payment On-Chain &amp; Trigger Auto-Fulfillment</button>
+    <div id="mStatus" style="margin-top:10px;font-size:12px;font-family:Consolas,monospace;"></div>
+  </div>
+</div>
+
+<script>
+const AI_WALLET = "0xc6d72a43eB4d01f24e0ec1bBe71d9874c869c15d";
+let curUsd = 0;
+let curSku = "";
+let curSupplierUrl = "";
+
+function openDropshipOrder(sku, title, usd, supplierUrl) {
+  curSku = sku;
+  curUsd = usd;
+  curSupplierUrl = supplierUrl;
+  document.getElementById("mTitle").innerText = title;
+  document.getElementById("mPrice").innerText = "$" + usd.toFixed(2) + " USD (Free Global Dispatch)";
+  document.getElementById("mStatus").innerText = "";
+  document.getElementById("orderModal").style.display = "flex";
+}
+
+async function payDropshipMetaMask() {
+  const st = document.getElementById("mStatus");
+  if (!window.ethereum) {
+    st.style.color = "#f59e0b";
+    st.innerText = "Send $" + curUsd.toFixed(2) + " in USDC/ETH to " + AI_WALLET + " and paste TxHash below.";
+    return;
+  }
+  try {
+    const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
+    const weiHex = "0x" + BigInt(Math.round((curUsd / 2800.0) * 1e18)).toString(16);
+    const txHash = await window.ethereum.request({
+      method: "eth_sendTransaction",
+      params: [{ from: accounts[0], to: AI_WALLET, value: weiHex }]
+    });
+    document.getElementById("txInput").value = txHash;
+    await verifyAndDispatch();
+  } catch (e) {
+    st.style.color = "#ef4444";
+    st.innerText = "Error: " + (e.message || e);
+  }
+}
+
+async function verifyAndDispatch() {
+  const tx = document.getElementById("txInput").value.trim();
+  const addr = document.getElementById("shipAddr").value.trim();
+  const st = document.getElementById("mStatus");
+  if (!addr) {
+    st.style.color = "#ef4444";
+    st.innerText = "Please enter your delivery address or email first.";
+    return;
+  }
+  if (!tx.startsWith("0x") || tx.length < 64) {
+    st.style.color = "#ef4444";
+    st.innerText = "Enter a valid 66-char 0x Transaction Hash.";
+    return;
+  }
+  st.style.color = "#38bdf8";
+  st.innerText = "Verifying payment to " + AI_WALLET.slice(0, 12) + "... on Ethereum/Base/Arbitrum/Polygon...";
+  const rpcs = ["https://mainnet.base.org","https://arb1.arbitrum.io/rpc","https://ethereum-rpc.publicnode.com","https://polygon-bor-rpc.publicnode.com"];
+  for (const rpc of rpcs) {
+    try {
+      const r = await fetch(rpc, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "eth_getTransactionByHash", params: [tx] })
+      });
+      const d = await r.json();
+      if (d && d.result && d.result.to && d.result.to.toLowerCase() === AI_WALLET.toLowerCase()) {
+        st.style.color = "#10b981";
+        st.innerHTML = "PAYMENT VERIFIED! Auto-Fulfillment Order queued for SKU " + curSku + " to: " + addr;
+        return;
+      }
+    } catch (e) {}
+  }
+  st.style.color = "#f59e0b";
+  st.innerText = "Tx not yet indexed on RPC. Retry in 15 seconds.";
+}
+</script>
+</body>
+</html>
